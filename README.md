@@ -5,3 +5,5 @@ The idea of this problem is to generate SQL queries given the natural language q
 
  ## Conclusion
  To solve the problem of converting natural language to sql query, we first modified the the SQL-Net model to use BERT embeddings to see that it improves performance. Then we tried to see if comparable accuracies could be achieved using GRUs. Our results show that GRU models have slightly lower accuracies then LSTMs for lesser time. We then tried to implement a model that uses pre-trained BERT model and bi-directional LSTM. The categories were predicted independently, so the model gives low accuracy, but gave better accuracies than select and where column. We can expect better results by further tuning parameters.
+ 
+ Access the complete project report here: https://github.com/ShivaSankeerth/Natural-Language-to-SQL/blob/main/Project%20Report.pdf
